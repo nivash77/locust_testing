@@ -1,0 +1,41 @@
+# ---- Python ----
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.egg-info/
+*.log
+
+# ---- Virtual environment ----
+venv/
+env/
+.venv/
+.env/
+ENV/
+
+# ---- Locust artifacts ----
+reports/
+*.stats.csv
+*.exceptions.csv
+*.failures.csv
+*.requests.csv
+
+# ---- Environment variables ----
+.env
+.env.local
+.env.*.local
+
+# ---- OS-specific ----
+.DS_Store
+Thumbs.db
+
+# ---- IDE / Editor ----
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ---- Files to protect ----
+payload.json   # if sensitive
+secrets.json
